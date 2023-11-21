@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Raghav's Portfolio</title>
+    <meta name="description" content="Raghav's portfolio website">
+    <meta name="author" content="Raghav Khurana">
+
+    <!-- Mobile-friendly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Minimalist CSS -->
+    <link rel="stylesheet" href="assets/css/minimalist.css">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/rag-pic.jpg">
+
+  </head>
+  <body>
+    <!-- User info -->
+    <header>
+      <div class="container">
+        <div class="row justify-content-lg-center">
+          <div class="col-lg-2 text-center">
+            <img src="assets/images/rag-pic.jpg" class="user-image rounded-circle" alt="Raghav Khurana">
+          </div>
+          <div class="col-lg-7">
+            <h2>Raghav Khurana</h2>
+            <p class="text-justify">
+              Welcome to my data-driven world! With a strong foundation in e-commerce software development, I'm currently pursuing a Master's in Business Analytics and Information Systems at the University of South Florida.
+          <br><br>
+              Proficient in Python, R Studio, HTML, and JavaScript, I specialize in transforming raw data into actionable insights. Experienced in implementing analytics and tracking software, I bridge the gap between technology and business strategy.
+          <br><br>
+              As a passionate graduate student, I delve into machine learning models and neural networks. I'm actively seeking full-time opportunities in data science, bringing a blend of logic and creativity to drive innovation.
+          <br><br>
+              Join me on this exciting journey where I share projects, experiences, and musings on the dynamic landscape of data analytics.
+          </p>
+          
+          
+            <ul class="list-inline text-lg-right social-icons">
+              <li class="list-inline-item"><a href="https://github.com/khuranaraghav" target="_blank"><i class="fab fa-github"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/raghavkhurana/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Content -->
+    <section>
+      <!-- ./content-switch -->
+      <div class="d-flex justify-content-center">
+        <div class="list-group list-group-horizontal-md" id="content-tabs" role="tablist">
+          <a class="list-group-item small text-uppercase active" id="list-experience-list" data-toggle="list" href="#experience" role="tab">Experience</a>
+          <a class="list-group-item small text-uppercase" id="list-projects-list" data-toggle="list" href="#projects" role="tab">Projects</a>
+          <a class="list-group-item small text-uppercase" id="list-blog-list" data-toggle="list" href="#blog" role="tab">Blog</a>
+        </div>
+      </div>
+      <!-- ./content-switch -->
+      <!-- ./content-body -->
+      <div class="container pt-5 tab-content">
+        <!-- ./experience-panel-->
+        <div class="tab-pane fade show active" id="experience" role="tabpanel">
+          <div class="row justify-content-lg-center">
+            <div class="col-lg">
+              <!-- Timeline -->
+              <div class="timeline-container">
+                <div class="timeline-block timeline-block-right">
+                  <div class="marker"></div>
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">Software Developer</h3>
+                    <span class="timeline-span">TATA Consultancy Services</span>
+                    <p class="text-muted small mb-3">August 2019 - June 2022</p>
+                    <p class="timeline-p text-justify">
+                      •	Developed, tested, and delivered key roadmap features such as ship-from-store, search refinements, data ingestion, outgoing catalog feeds, recommendation engine and integration with Manhattan OMS for an e-commerce website using <b>JavaScript, Node.js, ISML, jQuery and Java on Salesforce Commerce Cloud</b>.
+                   <br><br>  •	Implemented <b>end to end integrations</b> for analytical tools like <b>Google</b> and <b>Adobe Analytics</b> to track engagement, conversions, cart add, sign-ups, checkout, mini cart, etc.
+                   <br><br>  •	<b>Optimized</b> daily <b>batch jobs, catalog data dumps</b> and worked extensively to help bring down job <b>failures due to database locking</b> and other factors by 36%. 
+                   <br><br>  •	Redesigned the website’s recommender systems to add <b>product recommendations</b> on product display pages, search bar, and developed business friendly <b>feature flags</b> to seamlessly shift between two different product recommendation providers (Certona and Einstein). 
+                      </p>
+                  </div>
+                </div>
+            
+                <div class="timeline-block timeline-block-left">
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">Research Assistant</h3>
+                    <span class="timeline-span">University of South Florida, Tampa, FL </span>
+                    <p class="text-muted small mb-3">May 2023 – August 2023</p>
+                    <p class="timeline-p text-justify">
+                      •	Worked with my mentor on Florida Department of Education’s Digital Information Technology (DIT) grant to analyze Florida’s Career and Professional Education Act (CAPE) to understand the - <b> Funding and economic development aspects </b> of DIT, <b> Impact of industry certifications </b> and look at the underlying motivators & beneficiaries of the program. 
+                      <br><br>  •	Using <b> Python and SQLite3, developed custom ETL pipeline </b> to import data using <b> Kimball’s dimensional data modeling </b> approach of - identifying granularity, dimensions, and facts - built a comprehensive <b> Data Warehouse </b>.
+                      <br><br>  •	Extensively <b> queried </b> the data-warehouse using SQL to extract and analyze features for patterns across school districts, impact of teacher compensations & technology accessibility, and take a deep look at the <b> program’s paradoxes</b>. 
+                      </p>
+                  </div>
+                  <div class="marker"></div>
+                </div>
+            
+                <div class="timeline-block timeline-block-right">
+                  <div class="marker"></div>
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">Graduate Teaching Assistant</h3>
+                    <span class="timeline-span">University of South Florida, Tampa, FL</span>
+                    <p class="text-muted small mb-3">August 2023 – December 2023</p>
+                    <p class="timeline-p text-justify">•	Working as a Teaching Assistant for Analytical Methods of Business instructing in Statistical concepts like <b> Hypothesis testing, confidence intervals, GLM, ANOVA, Logistic Regression using R Studio </b> to graduate and MBA students.</p>
+                  </div>
+                </div>
+            
+                <div class="timeline-block timeline-block-left">
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">Your next hire</h3>
+                    <span class="timeline-span"></span>
+                    <p class="text-muted small mb-3">Janurary 2024 - </p>
+                    <p class="timeline-p text-justify">Kinda bold of me, but I'm quite sure I can convince you over an interview. Let's <a href="https://www.linkedin.com/in/raghavkhurana/" target="_blank">talk</a>.</p>
+
+                  </div>
+                  <div class="marker"></div>
+                </div>
+            
+              </div>
+              <!-- ./timeline -->
+            </div>
+          </div>
+        </div>
+        <!-- ./projects-panel-->
+        <div class="tab-pane fade show" id="projects" role="tabpanel">
+          
+          <div class="row justify-content-lg-center">
+            <!-- ./project-1 -->
+            <div class="col-lg-8 pb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title"><a href="./assets/pdf/SDM Project Report - Dark Forest - Finale.pdf" target="_blank">Analyzing Disparities in Life Expectancy across States in the USA – A Statistical Data Mining Project</a></h4>
+                    <a href="./assets/pdf/DV-Project.pdf" target="_blank">
+                        <img src="./assets/images/lifeexpect.png" alt="Project Image" class="project-image" style="width: 100%; height: 100%;">
+                    </a>
+                    <br> <br>
+                    <p class="card-text">
+                        The primary goal of this project was to investigate and understand the disparities in life expectancy across different states in the USA. By utilizing statistical data mining techniques, the project aimed to provide valuable insights into the factors contributing to variations in average age at death, ranging from 66.8 years to 86.8 years across America. The outcomes of this analysis are crucial for businesses and policymakers to address health-related challenges and make informed decisions.
+                        <br> <br>
+                        <b>Data Collection and Integration:</b>
+                        <ul>
+                            <li>Downloaded and combined data spanning the years 2019-2023 from diverse sources, including census reports, county health rankings, and state health data.</li>
+                            <li>Utilized R Studio and Tableau Prep Builder for efficient data processing and feature engineering.</li>
+                        </ul>
+                        <br> <br>
+                        <a href="./assets/pdf/DV-Project.pdf" target="_blank"><b>Exploratory Data Analysis (EDA):</b> Conducted a comprehensive exploratory data analysis to gain a preliminary understanding of the dataset. Examined statistical measures, distributions, and patterns in life expectancy data.</a>
+                        <br> <br>
+                        <b>Correlation Analysis:</b>
+                        <ul>
+                            <li>Checked for correlations between various demographic and health-related variables to identify potential influencing factors.</li>
+                        </ul>
+                        <br> <br>
+                        <b>Modeling and Interpretation:</b>
+                        <ul>
+                            <li>Applied fixed effects and multi-level models to estimate the impact of each variable on life expectancy.</li>
+                            <li>Interpreted model coefficients to discern the significance of each contributing factor.</li>
+                        </ul>
+                        <br> <br>
+                        <b>Recommendations:</b>
+                        <p>Provided granular recommendations based on the analysis results, highlighting key factors that contribute the most to reduced life expectancy. These recommendations serve as actionable insights for businesses and policymakers to address health disparities effectively.</p>
+                    </p>
+                </div>
+            </div>
+            
+            </div>
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
+            <!-- ./project-2 -->
+            <div class="col-lg-8 pb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title"><a href="./assets/pdf/FeedABullPaper - final.pdf" target="_blank">Demand Forecasting using Time Series Analysis and EDA at USF’s Food Pantry – A Data Mining Project</a></h4>
+
+                    <a href="./assets/pdf/FeedABullPaper - final.pdf" target="_blank">
+                        <img src="./assets/images/timeseries-weekly.png" alt="Project Image" class="project-image" style="width: 100%; height: 100%;">
+                    </a>
+                    <br> <br>
+                    <p class="card-text">
+                        This project focused on addressing the demand forecasting challenges faced by USF's Food Pantry. By leveraging data mining techniques, the goal was to provide accurate and actionable insights to optimize inventory management and meet the needs of the community. The project's value to the food pantry lies in its ability to make informed decisions based on a thorough understanding of demand patterns over time.
+                        <br> <br>
+                        <b>Data Gathering and Cleaning:</b>
+                        <ul>
+                            <li>Gathered, compiled, and cleaned survey data collected by Feed-A-Bull food pantry over the past 5 years.</li>
+                            <li>Implemented data normalization techniques to ensure consistency and accuracy in the dataset.</li>
+                        </ul>
+                        <br> <br>
+                        <b>Exploratory Data Analysis (EDA):</b>
+                        <ul>
+                            <li>Conducted exploratory data analysis to uncover patterns, trends, and potential outliers in the data.</li>
+                            <li>Examined statistical measures and visualized key features to gain insights into the nature of the dataset.</li>
+                        </ul>
+                        <br> <br>
+                        <b>Analytic Techniques Testing:</b>
+                        <ul>
+                            <li>Utilized various analytic techniques, including regression models, to analyze the relationship between different variables and demand.</li>
+                            <li>Applied time series analysis techniques such as ARIMA and Facebook’s Prophet to capture temporal patterns in demand.</li>
+                        </ul>
+                        <br> <br>
+                        <a href="./assets/pdf/FeedABullPaper - final.pdf" target="_blank">
+                            <img src="./assets/images/timeseries.png" alt="Project Image" class="project-image" style="width: 100%; height: 100%;">
+                        </a>
+                        <br> <br>
+                        <b>Trend Presentation:</b>
+                        <p>Presented daily, weekly, and yearly trends in demand using visualization tools such as Tableau, Python, and R Studio. Generated future projections based on the analyzed data to assist in proactive decision-making.</p>
+                    </p>
+                </div>
+            </div>
+            
+            </div>
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
+            <!-- ./project-3 -->
+            <div class="col-lg-8 pb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title"><a href="./assets/pdf/Group8-Report-dsp.pdf" target="_blank">American Sign Language (ASL) Image Recognition with Deep Learning</a></h4>
+
+                    <a href="./assets/pdf/Group8-Report-dsp.pdf" target="_blank">
+                        <img src="./assets/images/asl-hands.png" alt="Project Image" class="project-image" style="width: 100%; height: 100%;">
+                    </a>
+                    <p class="card-text">
+                        This ASL Image Recognition project aims to enhance communication for the Deaf community using advanced technology. Leveraging Convolutional Neural Network (CNN) and ResNet models, we explore the intersection of sign language and data science.
+                        <br> <br>
+                        <b>Motivation:</b>
+                        The motivation behind this initiative lies in the potential of technology to improve accessibility for the Deaf, dumb, and hard-of-hearing community. We see American Sign Language (ASL) recognition as a gateway to empowering individuals in education, employment, and daily communication.
+                        <br> <br>
+                        <b>Business Questions:</b>
+                        While focusing on multi-class image classification, we explore the broader business implications. Can this model extend beyond ASL applications? Is it robust enough for other image classification tasks?
+                        <br> <br>
+                        <b>Data Overview:</b>
+                        Our dataset comprises 2515 ASL images, covering 36 classes. Each class represents a letter or number, forming the basis of our model training.
+                        <br> <br>
+                        <b>Model Approach:</b>
+                        We employ Convolutional Neural Network (CNN) architecture and ResNet-50, both recognized for their efficiency in image-related tasks. The choice of models is driven by their ability to capture intricate features and patterns in ASL gestures.
+                        <br> <br>
+                        <b>Training and Evaluation:</b>
+                        In our evaluation, the CNN model demonstrates strong performance, with a testing accuracy of 97.82%. However, the ResNet-50 model outshines with a remarkable testing accuracy of 98.81%, showcasing superior generalization capabilities.
+                        <br> <br>
+                        <b>Business Applications:</b>
+                        The applications of our ASL recognition technology extend beyond its primary goal. There's potential in market expansion, catering to the needs of the Deaf and hard-of-hearing customers. Furthermore, the adaptability of our models allows seamless integration into various applications beyond ASL.
+                    </p>
+            
+                    <a href="./assets/pdf/Group8-Report-dsp.pdf" target="_blank">
+                        <img src="./assets/images/asl-conclusion.png" alt="Project Image" class="project-image" style="width: 100%; height: 100%;">
+                    </a>
+                    <p>
+                        <b>Conclusion:</b>
+                        Both the CNN and ResNet-50 models contribute significantly to ASL recognition technology. The ResNet-50, with its impressive accuracy, emerges as the preferred choice, emphasizing its transformative potential in addressing societal challenges related to accessibility and communication.
+                    </p>
+                </div>
+            </div>
+            
+            </div>
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
+          </div>
+        </div>
+        <div class="tab-pane fade show" id="blog" role="tabpanel">
+          <!-- TODO: Projects cards? Dunno. -->
+          <div class="row justify-content-lg-center">
+            <!-- ./project-1 -->
+            <div class="col-lg-8 pb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">My take on "Human-Centered Artificial Intelligence and Workforce Displacement"</h4>
+                  <img src="./assets/images/blog.jpg" alt="Project Image" class="project-image" style="width: 100%; height: 100%;">
+                  <p class="card-text">
+                    <br>
+                    I selected the article titled "Human-Centered Artificial Intelligence and Workforce Displacement" for two straightforward reasons. First, it was the shortest of the five options at just 3 pages. Second, it delves into a big concern that's been buzzing around the workforce lately: how AI fits in – is it here to help or to take over?
+                    <br> <br>
+                    With the advent of AI, there is a lot of speculation on when companies will stop seeing AI as a helper and start seeing it as a substitute for humans. Personally, I don’t think we can really count on companies to do the right thing and not replace workers with AI where they can, but the article highlights an interesting point, “Development of AI must be guided by its human impact.” Right now, it seems like the tech industry is all about rushing to be the first to do something with AI, without really thinking about whether it's good for us. It’s kind of like that famous line from Steven Spielberg's Jurassic Park, "Your scientists were so preoccupied with whether or they you could, they didn't stop and think if they should."
+                    <br> <br>
+                    It feels like the tech world is in that mode, being the first to try things out without really caring about how it affects the world. But as the AI hype settles down, the tools that will stand the test of time are the ones that make our work better, not just replace it. This article is a reminder that we need to take a step back and think about how AI can work alongside us, become a powerful addition to improve our jobs, and not leave us in the dust.
+                    <br> <br>
+                    Let’s consider the healthcare industry. As artificial intelligence becomes more integrated into the healthcare sector, it has the potential to revolutionize patient care and streamline operations. AI applications can enhance diagnostic accuracy, personalize treatment plans, and automate routine administrative tasks. For instance, AI algorithms analyzing medical images can assist doctors in identifying anomalies with greater precision, leading to quicker and more accurate diagnoses. This not only improves patient outcomes but also allows healthcare professionals to focus on more complex aspects of patient care.
+                    <br> <br>
+                    On an organizational level, the implementation of AI in healthcare may lead to increased efficiency in managing patient records, optimizing resource allocation, and improving overall operational workflows. However, it also raises questions about data security and patient privacy, requiring organizations to invest in robust cybersecurity measures.
+                    <br> <br>
+                    The impact on careers in the healthcare industry is significant. While AI streamlines certain tasks, it also creates a demand for professionals skilled in managing and interpreting AI-generated insights. Healthcare workers may need to adapt by acquiring AI-related skills to collaborate effectively with these technologies. The rise of AI in healthcare doesn't replace the human touch; instead, it augments the capabilities of healthcare professionals.
+                    <br> <br>
+                    In the end, the trajectory of AI in our workforce is a fascinating journey, one that prompts reflection on the responsible integration of technology into our lives. As the article suggests, the key lies in maintaining a human-centric approach to artificial intelligence. Beyond the buzz and hype, it's crucial to envision a future where AI complements our skills, making our work not just efficient but profoundly meaningful. Whether it's in healthcare, another industry, or the vast landscape of our professional endeavors, the true potential of AI lies in its alignment with human values, ensuring a future where both man and machine thrive in harmony.
+
+
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <footer>
+      <div class="container text-center">
+        <p class="small">
+        built by <a href="https://www.linkedin.com/in/raghavkhurana/" target="_blank">Raghav</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
