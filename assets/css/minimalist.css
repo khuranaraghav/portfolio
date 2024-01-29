@@ -15,7 +15,7 @@ body {
 /* Header and Section */
 header, section {
   padding-top: 5rem;
-}
+  }
 
 /* Anchors */
 a {
@@ -45,8 +45,8 @@ a:hover {
 
 /* User Image */
 .user-image {
-  width: 180px;
-  height: 180px;
+  width: 170px;
+  height: 170px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
@@ -54,14 +54,14 @@ a:hover {
 @media (max-width: 767px) {
   header .col-lg-2 {
     padding-bottom: 3rem;
-  }
+      }
 }
 
 /* Content Switcher */
 .list-group-item.active {
   color: white!important;
-  background: black!important;
-  border-color: black!important;
+  background: rgb(2, 131, 252)!important;
+  border-color: rgb(255, 255, 255)!important;
 }
 
 .list-group a {
